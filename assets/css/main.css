@@ -1,0 +1,148 @@
+/* line 1, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  background-image: url("../../assets/images/background.png"); }
+
+/* line 7, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.container {
+  margin: 50px 0 0 0;
+  min-height: 900px;
+  background: white;
+  position: relative; }
+  /* line 13, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container p {
+    margin: 5px; }
+  /* line 17, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container > header {
+    background-color: #33678b;
+    padding: 30px;
+    margin-left: -15px;
+    margin-right: -15px; }
+  /* line 24, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #sidebar, .container #main {
+    padding-top: 30px; }
+  /* line 28, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #sidebar {
+    border-right: 1px solid #e0e0e0;
+    bottom: 0;
+    display: block; }
+  /* line 35, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #results h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 85%; }
+  /* line 42, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #results img {
+    width: 120px;
+    border: 1px solid #e0e0e0;
+    border-radius: 7px; }
+  /* line 48, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #results span {
+    color: #a7a7a7;
+    font-size: 24px;
+    line-height: 24px; }
+  /* line 54, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #results .list-group-item {
+    border: 0; }
+  /* line 59, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #results .rating .stars_count, .container #results .rating .stars, .container #results .rating .reviews {
+    float: left; }
+  /* line 63, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #results .rating .stars_count {
+    color: #ffa657;
+    margin-right: 10px;
+    vertical-align: top; }
+  /* line 70, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #results .rating, .container #results .details {
+    padding-top: 12px; }
+  /* line 74, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .container #results .details {
+    display: block;
+    clear: both; }
+
+/* line 81, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.facet .count {
+  color: #aaa;
+  float: right;
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: center; }
+
+/* line 89, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.facet .name {
+  overflow: hidden;
+  max-width: 160px;
+  white-space: nowrap;
+  display: block;
+  float: left; }
+
+/* line 98, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+#sidebar .facet-title:not(:first-child) {
+  margin-top: 24px; }
+
+/* line 102, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.stars {
+  height: 24px;
+  width: 126px;
+  position: relative; }
+  /* line 107, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .stars .empty-stars, .stars .filled-stars {
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  /* line 112, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .stars .empty-stars {
+    background: url("../../assets/images/stars-icons.png") 0 0px; }
+  /* line 115, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .stars .filled-stars {
+    background: url("../../assets/images/stars-icons.png") 0 24px; }
+  /* line 119, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .stars .one-star {
+    width: 20%; }
+  /* line 120, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .stars .two-stars {
+    width: 40%; }
+  /* line 121, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .stars .three-stars {
+    width: 60%; }
+  /* line 122, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+  .stars .four-stars {
+    width: 80%; }
+
+/* line 125, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.facet .list-group-item.active {
+  border-color: rgba(51, 103, 139, 0.125);
+  box-shadow: inset 0 0 24px 0 #33678b;
+  background-color: transparent;
+  color: #495057; }
+
+/* line 132, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.results-details {
+  font-size: 125%; }
+
+/* line 136, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.results-details small {
+  font-weight: 200; }
+
+/* line 140, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.drop-shadow {
+  -webkit-box-shadow: 0px 4px 12px -2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 4px 12px -2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 4px 12px -2px rgba(0, 0, 0, 0.6); }
+
+/* line 146, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.shoulder {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+
+/* line 150, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.show-more {
+  display: block;
+  width: 200px; }
+
+/* line 155, /Users/utnvwpo/Downloads/solutions-hiring-assignment-master/project-files/assets/scss/main.scss */
+.show-more button {
+  width: 100%; }
+
+/*# sourceMappingURL=../../scss */
